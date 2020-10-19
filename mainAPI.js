@@ -24,8 +24,6 @@ var FinalData = {
 	entities: []
 }
 
-//export GOOGLE_APPLICATION_CREDENTIALS="/Users/rohithnadimpally/Downloads/helloworldhackathon-292618-e85d83f04026.json"  
-
 app.get('/api/analysis',(req,res)  => {
 	console.log(req.query); // Query format: http://localhost:8080/api/analysis?text=[text] 
 							// Ex [text]: hello+world!+my+name+is+Rohith!
